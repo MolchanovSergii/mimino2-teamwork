@@ -1,0 +1,141 @@
+.section-amnities{
+    background-color: #FFFDEE;
+    text-align: left;
+}
+
+.amnities-title{
+    max-width: 384px;
+    font-family: var(--font-secondary);
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 1.15;
+    margin-bottom: 16px;
+}
+.amn-list{
+    padding-bottom: 32px;
+}
+.amn-title{
+    font-family: var(--font-secondary);
+    max-width: 384px;
+    font-size: 24px;
+    line-height: 1.17;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.amn-p{
+
+ font-weight: 700;
+    font-size: 16px;
+    line-height: 1.25;
+    max-width: 384px;
+}
+.amn-item{
+    margin-bottom: 32px;
+}
+.amn-item:last-child{
+    margin-bottom: 0;
+}
+.first{
+    margin-bottom: 16px;
+}
+@media screen and (min-width: 1024px) {
+    .amn-list{
+        padding-bottom: 40px;
+    }
+    .amn-paragraf{
+        display: flex;
+    } 
+    
+    .first{
+        margin-bottom: 0;
+        margin-right: 80px;
+    }  
+    .amn-p{
+        max-width: 400px;
+    } 
+    .unical{
+        max-width: 757px; 
+     } 
+}
+@media screen and (min-width: 1280px){
+    .first{
+        margin-right: 159px;
+    }
+}
+
+.open-booking{
+    display: block;
+    text-align: center;
+    max-width: 384px;
+    color: var(--btn-act-white);
+    background-color: var(--btn-bg-dark);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    padding: 20px 43px;
+   border-color: var(--brdr-btn-yel);
+   border-radius: 25px;
+   margin-bottom: 20px;
+   transition: background-color var(--transition-func),
+               color var(--transition-func);
+}
+.open-booking:hover,
+.open-booking:focus{
+    background-color: #F3C653;
+    color: var(--btn-bg-dark);
+    border-color: transparent;
+}
+.amn-link{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+    max-width: 384px;
+    margin-bottom: 32px;
+   text-decoration: none;
+   font-size: 16px;
+   line-height: 1.25;
+   letter-spacing: 2%;
+   font-weight: 500;
+   color: #C79002;
+}
+
+.arrow{
+    fill: #C79002;
+    width: 23px;
+    height: 13px;
+    margin-left: 12px;
+}
+
+@media screen and (min-width: 1024px){
+    .open-booking{
+      font-size: 24px;
+      line-height: 1.2;
+      margin-left: auto;
+        margin-right: 0;
+        max-width: 434px;
+        padding: 18px 38px;
+        margin-bottom: 32px;
+    }
+    .amn-link{
+        margin-left: auto;
+       
+        max-width: 440px;
+        font-size: 20px;
+        line-height: 1.2;
+        margin-bottom: 40px;
+    }
+    .arrow{
+        margin-left: 17px;
+    }
+}
+@media screen and (min-width: 1280px){
+    .open-booking{
+        margin-left: 559px ;
+    }
+    .amn-link{
+        margin-left: 559px;
+        margin-bottom: 48px;
+}
+
+}
