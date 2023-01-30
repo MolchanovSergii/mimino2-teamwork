@@ -1,0 +1,125 @@
+.det-restaurant {
+    background-color: rgba(0, 0, 0, 0.65);
+    padding-top: 24px;
+    padding-bottom: 40px;
+
+    max-height: 735px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65),rgba(0, 0, 0, 0.65)),
+    url(../images/homepage/section2/section2_bg-mob.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.logo {
+    margin-bottom: 12px;
+    font-family: 'Film P3';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: calc(43 / 40);
+    
+    letter-spacing: 0.3em;
+    
+    color: #FFFFFF;
+}
+
+.rest-content-title {
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: calc(24 / 20);
+    letter-spacing: 0.02em;
+    
+    color: #FFFFFF;
+}
+
+.rest-content-text {
+    margin-bottom: 48px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: calc(15 / 12);
+    letter-spacing: 0.02em;
+    
+    color: #BABABA;
+}
+
+.restaurant-content {
+    width: 259px;
+    margin-left: auto;
+}
+
+.arrows-restaurant-items {
+    display: flex;
+}
+
+.left-arrow,
+.right-arrow {
+    fill: #FFFFFF;
+    margin-bottom: 32px;
+    margin-left: 40px;
+}
+
+.restaurant-slider-item {
+    margin-bottom: 16px;
+    margin-left: 40px;
+    
+}
+
+.btn-reserve-tabble {
+    min-width: 236px;
+    height: 48px;
+    letter-spacing: .02em;
+    color: #f3c653;
+    background-color: rgba(0,0,0,.4);
+    border: 2px solid #fff;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: inherit;
+    font-weight: 700;
+    line-height: 1.25;
+    transition-property: background-color;
+}
+
+.btn-view-menu {
+    max-width: 236px;
+    height: 48px;
+    letter-spacing: .02em;
+    color: #f3c653;
+    background-color: #000;
+    border: 2px solid #fffdee;
+    border-radius: 25px;
+    padding: 14px 29px 14px 30px;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1;
+    transition-property: background-color,border-color;
+    display: block;
+}
+
+.restaurant-btn-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 16px;
+    justify-content: center;
+}
+
+@media screen and (min-width: 1024px) {
+    .det-restaurant {
+        background-color: rgba(0, 0, 0, 0.65);
+        padding-top: 24px;
+        padding-bottom: 40px;
+    
+        max-height: 1024px;
+
+        background-image: linear-gradient(rgba(0, 0, 0, 0.65),rgba(0, 0, 0, 0.65)),
+        url(../images/homepage/section2/section2_bg-mob.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+}
