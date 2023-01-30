@@ -53,6 +53,7 @@
           <label for="nights-quantity" class="prices-label">
             <span class="nights-quantity-desc">категорія номеру</span>
             <select
+              onclick="multiply()"
               name="nights-quantity"
               id="nights-quantity"
               class="prices-select"
@@ -69,25 +70,13 @@
               <option class="nights-quantity-selection" value="10">10</option>
             </select>
           </label>
-          <label for="departure" class="mf-label">
-              <input
-                type="number"
-                id="departure"
-                name="trip-start"
-                class="mf-input mf-select kalendar"
-                placeholder="Сьогодні"
-                value="2023-02-01"
-                min="2023-01-01"
-                max="2023-12-31"
-              />
-              <span class="mf-desk">Дата виїзду</span>
-            </label>
-          </div>
-          <button type="submit" class="mf-button">
-            ОФОРМИТИ&nbsp;БРОНЮВАННЯ
+          <p id="outprice">Ціна</p>
+          <button type="submit" class="modal-prices-button">
+            Забронювати номер
           </button>
         </form>
       </div>
     </div>
+    <script src="./js/price.js"></script>
   </body>
 </html>
