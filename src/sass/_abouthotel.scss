@@ -17,9 +17,6 @@
     padding-bottom: 197px;
   }
 }
-.about-hotel .container {
-  position: relative;
-}
 
 .about-hotel .container {
   position: relative;
@@ -114,11 +111,7 @@
   .about-hotel-top-img {
     position: absolute;
     top: -144px;
-
     left: 112px;
-
-    left: 61px;
-
 
     width: 400px;
     height: 524px;
@@ -231,7 +224,7 @@
   }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1280px) {
   .about-hotel-slider-img {
     width: 254px;
     height: 254px;
@@ -243,10 +236,6 @@
     position: absolute;
     left: 47px;
     bottom: -166px;
-
-    /*left: 47px;
-    bottom: 96px;*/
-
 
     display: flex;
     column-gap: 40px;
