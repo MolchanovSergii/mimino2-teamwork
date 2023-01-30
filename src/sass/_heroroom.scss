@@ -1,0 +1,209 @@
+/* ========HERO======== */
+
+/* ---------Mobile-------- */
+
+@media screen and (min-width:320px) {
+    .hero-box {
+        padding-top: 341px;
+        background: url(room-4768554_1920.jpg);
+        background-image: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0.55) 54.17%, rgba(0, 0, 0, 0) 100%),url(../images/room/header-mob.jpg);
+        background-size: cover;
+        background-position: center;
+        max-width: 414px;
+        height: 600px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+     .hero-title {
+        width: 325px;
+        font-family:var( --font-primary);
+        font-style: normal;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 1.14;
+        letter-spacing: 0.05em;
+        color: #FFFFFF;
+        margin-bottom: 14px;
+    }
+     .hero-text {
+        width: 325px;
+        font-family: var(--font-primary);
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 1.25;
+        letter-spacing: 0.02em;
+        color: #FFFFFF;
+    }
+    .btn {
+        /* transition: color var(--transition); */
+        padding: 14px 35px;
+        min-width: 232px;
+        font-family: var(--font-primary);
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.25;
+        letter-spacing: 0.02em;
+        color: #F3C653;
+        background: rgba(0, 0, 0, 0.4);
+        border: 2px solid #FFFFFF;
+        border-radius: 25px;
+    }
+    .btn:hover,
+    .btn:focus,
+    .btn:active {
+        background-color: #FFFFFF;
+        color: #F3C653;
+        background: #FFFFFF;
+        border: 2px solid #F3C653;
+        border-radius: 25px;
+    }
+
+    .hero-item-svg {
+        fill: rgba(243, 198, 83, 0.7);
+    }
+    .hero-item-svg:hover,
+    .hero-item-svg:focus,
+    .hero-item-svg:active {
+        fill:bisque
+    }    
+
+}
+@media screen and (max-width:1023px) {
+    .hero-item:not(:last-child) {
+        margin-bottom: 12px;
+    }
+
+    .btn-info {
+        display: none;
+    }
+
+    .btn {
+        transform: translate(109px, -80px)
+    }
+
+    .hero-text {
+        margin-bottom: 17px;
+    }
+
+}
+/* ========TABLET======= */
+
+/* ---------Hero---------- */
+
+@media screen and (min-width:1024px) {
+
+    .hero-title {
+        width: 507px;
+        font-size: 36px;
+        margin-bottom: 24px;
+    }
+
+    .btn-text {
+        margin-top: 8px;
+        margin-right: 8px;
+        margin-bottom: 8px;
+        margin-left: 16px;
+        width: 233px;
+        font-family: var(--font-primary);
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.25;
+        letter-spacing: 0.01em;
+        color: #E5E5E5;
+    }
+
+    .btn-info {
+        margin-right: 41px;
+        width: 285px;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        border: 1px solid rgba(243, 198, 83, 0.7);
+        border-radius: 2px;
+    }
+
+    .btn-svg {
+        margin-left: 10px;
+        margin-right: 10px;
+        fill: #F3C653;
+    }
+    .btn-link {
+        font-family: var(--font-primary);
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: 0.01em;
+        color: #E5E5E5;
+    }
+
+    .hero-list {
+        display: flex;
+        flex-direction: row;
+        gap: 23px;
+    }
+
+    .hero-list-all {
+        display: flex;
+        align-items: center;
+    }
+
+    .hero-text {
+        width: 400px;
+        font-size: 16px;
+        margin-bottom: 24px;
+    }
+
+}
+
+@media screen and (min-width:1024px) and (max-width:1279px) {
+    .btn {
+        transform: translate(700px, -85px)
+    }
+     .hero-box {
+        background: url(room-4768554_1920.jpg);
+        padding-top: 353px;
+        background-image: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0.55) 54.17%, rgba(0, 0, 0, 0) 100%),url(../images/room/header-tablet.jpg);
+        max-width: 1024px;
+        height: 718px;
+    }
+}
+/* =========DESKTOP======= */
+
+/* ---------Hero-------- */
+
+@media screen and (min-width: 1280px) {
+    .btn-info {
+        display: none;
+    }
+
+    .hero-text {
+        margin-bottom: 48px;
+    }
+
+    .hero-social {
+        display: none;
+    }
+
+    .btn {
+        transform: translate(880px, -110px)
+    }
+
+    .hero-text {
+        margin-bottom: 48px;
+    }
+     .hero-box {
+        padding-top: 377px;
+        background: url(room-4768554_1920.jpg);
+        background-image:linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0.55) 54.17%, rgba(0, 0, 0, 0) 100%) ,url(../images/room/header-pc.jpg);
+        background-size: cover;
+        background-position: center;
+        max-width: 1280px;
+        height: 720px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
