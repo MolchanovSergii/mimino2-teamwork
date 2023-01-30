@@ -43,11 +43,11 @@
   }
 }
 
-.about-hotel .logo {
-  display: block;
+.about-hotel-logo {
+  width: 127px;
+  margin-left: auto;
   margin-bottom: 16px;
 
-  text-align: right;
   font-family: 'Film P3';
   font-weight: 700;
   font-size: 40px;
@@ -57,10 +57,17 @@
 }
 
 @media screen and (min-width: 1024px) {
-  .about-hotel .logo {
+  .about-hotel-logo {
+    width: 204px;
     margin-bottom: 24px;
 
     font-size: 64px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .about-hotel-logo {
+    width: 202px;
   }
 }
 
