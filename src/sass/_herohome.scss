@@ -73,7 +73,7 @@ screen and (min-resolution: 2dppx) and (min-width: 1280px) {
     }
 }
 
-.hero-title {
+.herohome-title {
     font-family: var(--font-logo);
     font-size: 96px;
     line-height: 1.07;
@@ -84,14 +84,14 @@ screen and (min-resolution: 2dppx) and (min-width: 1280px) {
 }
 
 @media screen and (min-width: 1024px) {
-    .hero-title {
+    .herohome-title {
         font-size: 128px;
         line-height: 1.08;
         margin-left: calc(128 * 0.3);
     }
 }
 
-.hero-undertitile {
+.hero-undertitle {
     font-weight: 600;
     font-size: 16px;
     line-height: 1.25;
@@ -102,19 +102,19 @@ screen and (min-resolution: 2dppx) and (min-width: 1280px) {
 }
 
 @media screen and (min-width: 1024px) {
-    .hero-undertitile {
+    .hero-undertitle {
         line-height: 1.2;
         margin-top: 20px;
     }
 }
 
 @media screen and (min-width: 1280px) {
-    .hero-undertitile {
+    .hero-undertitle {
         margin-top: 32px;
     }
 }
 
-.hero-second-undertitile {
+.hero-second-undertitle {
     font-family: var(--font-secondary);
     font-weight: 700;
     font-size: 32px;
@@ -127,7 +127,7 @@ screen and (min-resolution: 2dppx) and (min-width: 1280px) {
 }
 
 @media screen and (min-width: 1024px) {
-    .hero-second-undertitile {
+    .hero-second-undertitle {
         font-size: 36px;
         line-height: 1.14;
         margin-top: 56px;
@@ -135,7 +135,7 @@ screen and (min-resolution: 2dppx) and (min-width: 1280px) {
 }
 
 @media screen and (min-width: 1280px) {
-    .hero-second-undertitile {
+    .hero-second-undertitle {
         margin-top: 64px;
     }
 }
@@ -188,7 +188,7 @@ screen and (min-resolution: 2dppx) and (min-width: 1280px) {
     }
 }
 
-.hero-btn {
+.herohome-btn {
     font-family: var(--font-primary);
     font-weight: 700;
     font-size: 16px;
