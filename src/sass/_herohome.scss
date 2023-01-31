@@ -202,6 +202,12 @@ screen and (min-resolution: 2dppx) and (min-width: 1280px) {
     background-color: rgba(0, 0, 0, 0.4);
 }
 
+@media screen and (min-width: 1280px) {
+    .herohome-btn {
+        padding: 14px 35px;
+    }
+}
+
 .hero-social-list {
     display: flex;
     margin-top: 60px;
