@@ -227,12 +227,18 @@
   border-radius: 25px;
   border: var(--brdr-btn-white);
   background-color: rgba(0, 0, 0, 0.4);
+  transition: border-color var(--transition), background-color var(--transition);
 }
 
 @media screen and (min-width: 1280px) {
   .herohome-btn {
     padding: 14px 35px;
   }
+}
+
+.herohome-btn:hover, .herohome-btn:focus {
+  border-color: var(--btn-act-yellow);
+  background-color: var(--btn-act-white);
 }
 
 .hero-social-list {
@@ -257,8 +263,13 @@
   margin-right: 20px;
 }
 
-.hero-social-icon {
+.hero-icon-link {
   fill: rgba(243, 198, 83, 0.7);
+  transition: fill var(--transition);
+}
+
+.hero-icon-link:hover, .hero-icon-link:focus {
+  fill: #ffffff;
 }
 
 @media screen and (max-width: 1023px) {
@@ -297,6 +308,10 @@
   }
 }
 
+.hero-icon-map {
+  fill: var(--btn-act-yellow);
+}
+
 .adress-link {
   font-weight: 400;
   font-size: 12px;
@@ -304,6 +319,7 @@
   letter-spacing: 0.01em;
   color: #e5e5e5;
   margin-left: 10px;
+  transition: color var(--transition);
 }
 
 @media screen and (min-width: 1024px) {
@@ -311,6 +327,10 @@
     font-size: 16px;
     margin-left: 10px;
   }
+}
+
+.adress-link:hover, .adress-link:focus {
+  color: var(--btn-act-yellow);
 }
 
 /* ------------- END HERO------------- */
