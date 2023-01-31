@@ -50,29 +50,27 @@
         <form class="modal-prices-form">
           <p class="modal-prices-title">ціни на номер</p>
           <p class="modal-prices-room-name">Двомісний люкс</p>
-          <label for="nights-quantity" class="prices-label">
-            <span class="nights-quantity-desc">категорія номеру</span>
-            <select
-              onclick="multiply()"
+          <p class="prices-selected-room">Категорія номеру</p>
+          <div class="prices-left">
+            <input
+              oninput="multiply()"
+              placeholder="Кількість"
               name="nights-quantity"
               id="nights-quantity"
               class="prices-select"
-            >
-              <option class="nights-quantity-selection" value="1">1</option>
-              <option class="nights-quantity-selection" value="2">2</option>
-              <option class="nights-quantity-selection" value="3">3</option>
-              <option class="nights-quantity-selection" value="4">4</option>
-              <option class="nights-quantity-selection" value="5">5</option>
-              <option class="nights-quantity-selection" value="6">6</option>
-              <option class="nights-quantity-selection" value="7">7</option>
-              <option class="nights-quantity-selection" value="8">8</option>
-              <option class="nights-quantity-selection" value="9">9</option>
-              <option class="nights-quantity-selection" value="10">10</option>
-            </select>
-          </label>
-          <p id="outprice">Ціна</p>
+            />
+            <label for="nights-quantity" class="prices-label"
+              >Кількість ночей
+            </label>
+          </div>
+          <div class="prices-right">
+            <div class="price-out">
+              <p id="outprice">Ціна</p>
+            </div>
+            <p class="currency">грн</p>
+          </div>
           <button type="submit" class="modal-prices-button">
-            Забронювати номер
+            Забронювати&nbsp;номер
           </button>
         </form>
       </div>
