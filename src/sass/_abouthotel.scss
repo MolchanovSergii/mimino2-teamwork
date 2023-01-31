@@ -236,13 +236,14 @@
 
 /**********************SLIDER********************/
 
-.swiper {
+
+.swiper.about-hotel-slider {
   width: 245px;
   height: 245px;
 }
 
 @media screen and (min-width: 1024px) {
-  .swiper {
+  .swiper.about-hotel-slider {
     position: absolute !important;
     bottom: -166px;
     left: 47px;
@@ -252,7 +253,7 @@
   }
 }
 @media screen and (min-width: 1280px) {
-  .swiper {
+  .swiper.about-hotel-slider {
     bottom: -75px;
     left: 85px;
 
@@ -261,7 +262,7 @@
   }
 }
 
-.swiper-button-prev {
+.swiper-button-prev.about-hotel-slider {
   top: auto !important;
   bottom: -52px;
   left: 15px !important;
@@ -279,20 +280,20 @@
 }
 
 @media screen and (min-width: 1024px) {
-  .swiper-button-prev {
+  .swiper-button-prev.about-hotel-slider {
     bottom: -230px;
     left: 47px !important;
   }
 }
 
 @media screen and (min-width: 1280px) {
-  .swiper-button-prev {
+  .swiper-button-prev.about-hotel-slider {
     bottom: -147px;
     left: 85px !important;
   }
 }
 
-.swiper-button-next {
+.swiper-button-next.about-hotel-slider {
   top: auto !important;
   bottom: -52px;
   left: 79px !important;
@@ -310,14 +311,14 @@
 }
 
 @media screen and (min-width: 1024px) {
-  .swiper-button-next {
+  .swiper-button-next.about-hotel-slider {
     bottom: -230px;
     left: 111px !important;
   }
 }
 
 @media screen and (min-width: 1280px) {
-  .swiper-button-next {
+  .swiper-button-next.about-hotel-slider {
     bottom: -147px;
     left: 149px !important;
   }
