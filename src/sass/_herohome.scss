@@ -121,14 +121,14 @@
   line-height: 1.25;
   letter-spacing: 0.02em;
   color: #ffffff;
-  margin-top: 24px;
   text-align: center;
+  margin-top: 20px;
 }
 
 @media screen and (min-width: 1024px) {
   .hero-undertitle {
     line-height: 1.2;
-    margin-top: 20px;
+    margin-top: 16px;
   }
 }
 
@@ -145,7 +145,7 @@
   line-height: 1.15;
   letter-spacing: 0.05em;
   color: #ffffff;
-  margin-top: 40px;
+  margin-top: 44px;
   text-transform: uppercase;
   text-align: center;
 }
@@ -164,16 +164,19 @@
   }
 }
 
+.hero-btn-container {
+  margin-top: 113px;
+}
+
 @media screen and (min-width: 1024px) {
   .hero-btn-container {
     display: flex;
     justify-content: flex-end;
-    margin-top: 145px;
+    margin-top: 144px;
   }
 }
 
 .hero-btn-list {
-  margin-top: 113px;
   display: flex;
   flex-direction: column;
 }
