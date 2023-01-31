@@ -95,3 +95,21 @@
     padding-top: 164px;
   }
 }
+
+@media screen and (min-width: 1024px) {
+  .herohotel-btn-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 226px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .herohotel-btn-container {
+    margin-top: 249px;
+  }
+}
+
+.herohotel-undertitle {
+  margin-top: 32px;
+}
