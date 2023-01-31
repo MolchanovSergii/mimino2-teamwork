@@ -1,0 +1,225 @@
+
+.det-hotel {
+    padding-top: 24px;
+    padding-bottom: 40px;
+
+    max-height: 735px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.76),rgba(0, 0, 0, 0.76)),
+    url(../images/homepage/section4/section4_bg-mob.jpg);
+    background-repeat: no-repeat;
+    background-size: 414px 735px;
+    background-position: center;
+}
+
+@media screen and (min-device-pixel-ratio: 2) and (max-width: 1023px), 
+screen and (min-resolution: 192dpi) and (max-width: 1023px), 
+screen and (min-resolution: 2dppx) and (max-width: 1023px) {
+    .det-hotel {
+        background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.76),rgba(0, 0, 0, 0.76)),
+        url(../images/homepage/section4/section4_bg-mob@2x.jpg);
+    }
+}
+
+// ============TABLET SCREEN
+
+@media screen and (min-width: 1024px) {
+    .det-hotel {
+        padding-top: 48px;
+        padding-bottom: 96px;
+        max-height: 620px;
+
+        background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.76),rgba(0, 0, 0, 0.76)),
+        url(../images/homepage/section4/section4_bg-tab.jpg);
+    }
+    @media screen and (min-device-pixel-ratio: 2) and (min-width: 1024px),
+    screen and (min-resolution: 192dpi) and (min-width: 1024px),
+    screen and (min-resolution: 2dppx) and (min-width: 1024px) {
+        .det-hotel {
+            background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.76),rgba(0, 0, 0, 0.76)),
+            url(../images/homepage/section4/section4_bg-tab@2x.jpg);
+            background-size: 1024px 620px;
+        }
+     }
+}
+
+// ==========DESKTOP SCREEN
+
+@media screen and (min-width: 1280px) {
+    .det-hotel {
+        padding-top: 48px;
+        padding-bottom: 47px;
+        max-height: 620px;
+
+        background-image: linear-gradient(rgba(0, 0, 0, 0.65),rgba(0, 0, 0, 0.65)),
+        url(../images/homepage/section4/section4_bg-desk.jpg);
+        background-size: 1280px;
+    }
+
+    @media screen and (min-device-pixel-ratio: 2) and (min-width: 1280px),
+    screen and (min-resolution: 192dpi) and (min-width: 1280px),
+    screen and (min-resolution: 2dppx) and (min-width: 1280px) {
+        .det-hotel {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.65),rgba(0, 0, 0, 0.65)),
+            url(../images/homepage/section4/section4_bg-desk@2x.jpg);
+            background-size: 1280px 620px;
+        } 
+    }
+}
+
+// ============== CONTENT BLOCK
+
+@media screen and (max-width: 1023px) {
+    .hotel-slider-item:nth-child(-n + 2) {
+        display: none;
+    }
+}
+
+.hotel-content {
+    width: 243px;
+    margin-left: 32px;
+    text-align: right;
+
+    @media screen and (min-width: 1024px) {
+         width: 549px;
+         margin-left: 197px;
+    }
+
+    @media screen and (min-width: 1280px) {
+         width: 549px;
+         margin-left: 259px;
+    }
+}
+
+
+.hotel-logo {
+    margin-bottom: 12px;
+
+    font-family: 'Film P3';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: calc(43 / 40);
+    letter-spacing: 0.3em;
+    
+    color: #FFFFFF;
+
+    @media screen and (min-width: 1024px) {
+         margin-bottom: 16px;
+
+         font-size: 64px;
+         line-height: calc(69 / 64);
+    }
+
+}
+
+.hotel-content-title {
+    margin-bottom: 20px;
+
+    font-weight: 700;
+    font-size: 20px;
+    line-height: calc(24 / 20);
+    letter-spacing: 0.02em;
+    
+    color: #FFFFFF;
+
+    @media screen and (min-width: 1024px) {
+         margin-bottom: 8px;
+
+         font-size: 24px;
+         line-height: calc(29 / 24);
+    }
+}
+
+.hotel-content-text {
+    margin-bottom: 48px;
+
+    font-weight: 600;
+    font-size: 12px;
+    line-height: calc(15 / 12);
+    letter-spacing: 0.02em;
+    
+    color: #BABABA;
+
+    @media screen and (min-width: 1024px) {
+         margin-bottom: 40px;
+         font-size: 16px;
+         line-height: calc(20 / 16);
+    }
+}
+
+.hotel-wrap {
+    display: flex;
+
+    @media screen and (max-width: 1023px) {
+        flex-wrap: wrap;
+    }
+    
+    @media screen and (min-width: 1024px) {
+         flex-direction: row;
+         padding-bottom: 96px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .hotel-slider-item {
+        margin-left: 89px;
+        margin-bottom: 80px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .hotel-slider-item:not(:first-child) {
+    margin-left: 30px;
+ }
+}
+
+
+.det-hotel-btn {
+    display: inline-block;
+    text-align: center;
+    padding: 14 24;
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: calc(20 / 16);
+    letter-spacing: 0.02em;
+
+    background: rgba(0, 0, 0, 0.4);
+    color: #F3C653;
+
+    border: 2px solid #FFFFFF;
+    border-radius: 25px;
+    cursor: pointer;
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+    border-radius 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.det-hotel-btn:hover, 
+.det-hotel-btn:focus {
+    background-color: #FFFFFF;
+    border: 2px solid #F3C653;
+    border-radius: 25px;
+}
+
+.hotel-btns {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+
+    @media screen and (max-width: 1023px) {
+         margin-right: auto;
+    }
+
+    @media screen and (min-width: 1024px) {
+         justify-content: flex-end;
+    }
+
+}
+
+.reserve-room {
+    margin-bottom: 16px;
+}
