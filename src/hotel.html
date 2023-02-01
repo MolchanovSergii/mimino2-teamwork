@@ -16,58 +16,22 @@
   </head>
 
   <body>
-
     <include src="./partials/header.html"></include>
 
     <main>
       <include src="./partials/hotel/herohotel.html"></include>
       <include src="./partials/hotel/roomlux.html"></include>
-      <include src="./partials/hotel/room2adult.html"></include>
       <include src="./partials/hotel/room3adult.html"></include>
+      <include src="./partials/hotel/room2adult.html"></include>
     </main>
 
     <include src="./partials/footer.html"></include>
-    <div class="backdrop-prices is-hidden" data-modal-prices>
-      <div class="modal-prices">
-        <button
-          type="button"
-          class="close-window-prices"
-          data-modal-close-prices
-        >
-          <svg class="modal-prices-close-icon" width="24px" height="24px">
-            <use href="./images/svg/sprite.svg#icon-close-prices"></use>
-          </svg>
-        </button>
-        <form class="modal-prices-form">
-          <p class="modal-prices-title">ціни на номер</p>
-          <p class="modal-prices-room-name">Двомісний люкс</p>
-          <p class="prices-selected-room">Категорія номеру</p>
-          <div class="prices-input">
-            <div class="prices-left">
-              <input
-                oninput="multiply()"
-                placeholder="Кількість"
-                name="nights-quantity"
-                id="nights-quantity"
-                class="prices-select"
-              />
-              <label for="nights-quantity" class="prices-label"
-                >Кількість ночей
-              </label>
-            </div>
-            <div class="prices-right">
-              <div class="price-out">
-                <p class="price-output" id="outprice">Ціна</p>
-              </div>
-              <p class="currency">грн</p>
-            </div>
-          </div>
-          <button type="submit" class="modal-prices-button">
-            Забронювати&nbsp;номер
-          </button>
-        </form>
-      </div>
-    </div>
+
+    <!-- MODAL -->
+    <script src="./js/modal-room-2.js"></script>
+    <script src="./js/modal-table-2.js"></script>
     <script src="./js/price.js"></script>
+    <script src="./js/modal-prices.js"></script>
+    <!-- MODAL -->
   </body>
 </html>
