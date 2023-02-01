@@ -25,13 +25,13 @@
 }
 
 .hotel-tripleroom-part-one {
-    display: flex;
-    flex-direction: row-reverse;
     margin-bottom: 32px;
 }
 
-@media screen and (min-width: 1028px) {
+@media screen and (min-width: 1024px) {
     .hotel-tripleroom-part-one {
+        display: flex;
+        flex-direction: row-reverse;
         margin-bottom: 176px;
     }
 }
@@ -99,6 +99,10 @@
     }
 }
 
+.hotel-tripleroom-detail {
+    margin-left: auto;
+}
+
 .hotel-tripleroom-title {
     font-family: 'Times New Roman';
     font-weight: 700;
@@ -111,7 +115,7 @@
 }
 
 @media screen and (min-width: 1024px) {
-    .hotel-tripleroom-title {
+    .hotel-tripleroom-title{
         font-size: 30px;
         line-height: calc(34.5/30);
 
@@ -132,7 +136,7 @@
     font-family: 'Montserrat';
     font-weight: 600;
     font-size: 12px;
-    line-height: calc(12/14.63);
+    line-height: calc(14.63/12);
     letter-spacing: 0.02em;
     color: #7A7A7A;
 
@@ -191,11 +195,13 @@
     }
 }
 
-.hotel-tripleroom-part-two {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: center;
-    align-items: center;
+@media screen and (min-width: 1024px) {
+    .hotel-tripleroom-part-two {
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: center;
+            align-items: center;
+        }
 }
 
 // /* Slider */
