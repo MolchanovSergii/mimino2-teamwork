@@ -32,6 +32,7 @@ screen and (min-resolution: 2dppx) and (max-width: 1023px) {
 
         background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.76),rgba(0, 0, 0, 0.76)),
         url(../images/homepage/section4/section4_bg-tab.jpg);
+        background-size: 1024px 620px;
     }
     @media screen and (min-device-pixel-ratio: 2) and (min-width: 1024px),
     screen and (min-resolution: 192dpi) and (min-width: 1024px),
@@ -39,7 +40,6 @@ screen and (min-resolution: 2dppx) and (max-width: 1023px) {
         .det-hotel {
             background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.76),rgba(0, 0, 0, 0.76)),
             url(../images/homepage/section4/section4_bg-tab@2x.jpg);
-            background-size: 1024px 620px;
         }
      }
 }
@@ -54,7 +54,7 @@ screen and (min-resolution: 2dppx) and (max-width: 1023px) {
 
         background-image: linear-gradient(rgba(0, 0, 0, 0.65),rgba(0, 0, 0, 0.65)),
         url(../images/homepage/section4/section4_bg-desk.jpg);
-        background-size: 1280px;
+        background-size: 1280px 620px;
     }
 
     @media screen and (min-device-pixel-ratio: 2) and (min-width: 1280px),
@@ -63,7 +63,6 @@ screen and (min-resolution: 2dppx) and (max-width: 1023px) {
         .det-hotel {
             background-image: linear-gradient(rgba(0, 0, 0, 0.65),rgba(0, 0, 0, 0.65)),
             url(../images/homepage/section4/section4_bg-desk@2x.jpg);
-            background-size: 1280px 620px;
         } 
     }
 }
@@ -159,6 +158,10 @@ screen and (min-resolution: 2dppx) and (max-width: 1023px) {
          flex-direction: row;
          padding-bottom: 96px;
     }
+}
+
+.hotel-slider-item {
+    border-radius: 2px;
 }
 
 @media screen and (max-width: 1023px) {
