@@ -5,34 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mimino-room</title>
 
-    <link rel="shortcut icon" type="image/png" href="./images/favicons/favicon-mimino.png" />
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="./images/favicons/favicon-mimino.png"
+    />
 
     <link rel="stylesheet" href="./sass/index.scss" />
+
+    <!--SLIDER-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <!--SLIDER-->
     <script type="module" src="./js/index.js"></script>
-    
   </head>
 
   <body>
-      <!-- TEST LINK -->
-    <div class="container test-link">
-      <a href="./index.html">HOME</a>
-      <a href="./rest.html">REST</a>
-      <a href="./hotel.html">HOTEL</a>
-      <a href="./room.html">ROOM</a>
-    </div>
-      <!-- TEST LINK -->
-
     <include src="./partials/header.html"></include>
-  
-  <main>
-  
-    <include src="./partials/room/heroroom.html"></include>
-    <include src="./partials/room/roomamenities.html"></include>
-  
-  </main>
-  
-    <include src="./partials/footer.html"></include>
-  
-  </body>
 
+    <main>
+      <include src="./partials/room/heroroom.html"></include>
+      <include src="./partials/room/roomamenities.html"></include>
+    </main>
+
+    <include src="./partials/footer.html"></include>
+
+    <!-- MODAL -->
+    <script src="./js/modal.js"></script>
+    <!-- MODAL -->
+    <!--SLIDER-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./js/slider-bg.js"></script>
+    <!--SLIDER-->
+  </body>
 </html>

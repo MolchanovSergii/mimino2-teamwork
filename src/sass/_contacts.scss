@@ -37,7 +37,7 @@
   align-items: flex-start;
 }
 
-.contacts .logo {
+.contacts-logo {
   display: block;
   margin-bottom: 12px;
 
@@ -50,7 +50,7 @@
 }
 
 @media screen and (min-width: 1024px) {
-  .contacts .logo {
+  .contacts-logo {
     margin-bottom: 8px;
 
     font-size: 64px;
@@ -58,7 +58,7 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .contacts .logo {
+  .contacts-logo {
     margin-bottom: 16px;
   }
 }

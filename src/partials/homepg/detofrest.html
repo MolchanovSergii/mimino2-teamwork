@@ -1,11 +1,37 @@
-<section class="det-restaurant det-overlay">
+<section class="det-restaurant">
     <div class="container">
         <div class="restaurant-content">
-            <p class="logo">MIMIHO</p>
+            <p class="rest-logo">MIMIHO</p>
             <h2 class="rest-content-title">Ресторан</h2>
             <p class="rest-content-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
         </div>
         <div class="restaurant-wrap">
+            <div class="restaurant-slider-item">
+                <picture>
+                    <source srcset="/src/images/homepage/section2/section2_2-pc.jpg 1x, /src/images/homepage/section2/section2_2-pc@2x.jpg 2x"
+                    media="(min-width: 1280px)" />
+                    <source srcset="/src/images/homepage/section2/section2_2-tablet.jpg 1x, /src/images/homepage/section2/section2_2-tablet@2x.jpg 2x"
+                    media="(min-width: 768px)" />
+                    <source srcset="/src/images/homepage/section2/section2_2-tablet.jpg 1x, /src/images/homepage/section2/section2_2-tablet@2x.jpg 2x"
+                    media="(min-width: 320px)" />
+                    <img src="/src/images/homepage/section2/section2_2-pc.jpg" 
+                    alt="стейк">
+                </picture>
+            </div>
+
+            <div class="restaurant-slider-item">
+                <picture>
+                    <source srcset="/src/images/homepage/section2/section2_3-pc.jpg 1x, /src/images/homepage/section2/section2_3-pc@2x.jpg 2x"
+                    media="(min-width: 1280px)" />
+                    <source srcset="/src/images/homepage/section2/section2_3-tablet.jpg 1x, /src/images/homepage/section2/section2_3-tablet@2x.jpg 2x"
+                    media="(min-width: 768px)" />
+                    <source srcset="/src/images/homepage/section2/section2_3-tablet.jpg 1x, /src/images/homepage/section2/section2_3-tablet@2x.jpg 2x"
+                    media="(min-width: 320px)" />
+                    <img src="/src/images/homepage/section2/section2_3-pc.jpg" 
+                    alt="стейк">
+                </picture>
+            </div>
+
             <div class="restaurant-slider-item">
                 <picture>
                     <source 
@@ -26,39 +52,13 @@
                 </picture>
             </div>
 
-            <div class="restaurant-slider-item">
-                <!-- <picture>
-                    <source>
-                    <source>
-                    <source>
-                    <img src="" alt="">
-                </picture> -->
-            </div>
-
-            <div class="restaurant-slider-item">
-                <!-- <picture>
-                    <source srcset="/src/images/homepage/section2/section2_1-mob.jpg">
-                    <source>
-                    <source>
-                    <img src="/src/images/homepage/section2/section2_1-mob.jpg" alt="">
-                </picture> -->
-            </div>
-            <ul class="arrows-restaurant-items list">
-                <li class="left-arrow">
-                    <svg width="32" height="32">
-                        <use href="/src/images/svg/sprite.svg#icon-left"></use>
-                    </svg>
-                </li>
-                <li class="right-arrow">
-                    <svg width="32" height="32">
-                        <use href="/src/images/svg/sprite.svg#icon-right"></use>
-                    </svg>
-                </li>
-            </ul>
-            <div class="restaurant-btn-wrap">
-                <button class="btn-reserve-tabble" type="button">Забронювати столик</button>
-                <a class="btn-view-menu link" href="#">Переглянути меню</a>
+            <div class="restaurant-btns">
+                <button class="det-rest-btn reserve-tabble" type="button">Забронювати столик</button>
+                <a class="det-rest-btn link" href="./rest.html#rest-menu">Переглянути меню</a>
             </div>
         </div>
-    </div>
-</section> 
+
+    <div class="swiper-button-left"></div>
+    <div class="swiper-button-right"></div>
+  </div>
+</section>

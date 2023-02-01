@@ -1,20 +1,103 @@
+//================= BACKGROUND
+
 .det-restaurant {
-    background-color: rgba(0, 0, 0, 0.65);
     padding-top: 24px;
     padding-bottom: 40px;
 
     max-height: 735px;
     margin-left: auto;
     margin-right: auto;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.65),rgba(0, 0, 0, 0.65)),
+    background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.65),rgba(0, 0, 0, 0.65)),
     url(../images/homepage/section2/section2_bg-mob.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 414px 735px;
     background-position: center;
+    
 }
 
-.logo {
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 320px), 
+screen and (min-resolution: 192dpi) and (min-width: 320px), 
+screen and (min-resolution: 2dppx) and (min-width: 320px) {
+    .det-restaurant {
+        background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.65),rgba(0, 0, 0, 0.65)),
+        url(../images/homepage/section2/section2_bg-mob@2x.jpg);
+        background-size: 414px 735px;
+    }
+}
+
+//================= TABLET BACKGROUND
+
+@media screen and (min-width: 1024px) {
+    .det-restaurant {
+        padding-top: 48px;
+        padding-bottom: 96px;
+        max-height: 620px;
+
+        background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.65),rgba(0, 0, 0, 0.65)),
+        url(../images/homepage/section2/section2_bg-tab.jpg);
+        background-size: 1024px 620px;
+        
+    }
+    @media screen and (min-device-pixel-ratio: 2) and (min-width: 1024px),
+    screen and (min-resolution: 192dpi) and (min-width: 1024px),
+    screen and (min-resolution: 2dppx) and (min-width: 1024px) {
+        .det-restaurant {
+            background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.65),rgba(0, 0, 0, 0.65)),
+            url(../images/homepage/section2/section_bg-tab@2x.jpg);
+            background-size: 1024px 620px;
+        }
+     }
+}
+
+//================= DESKTOP BACKGROUND
+
+@media screen and (min-width: 1280px) {
+    .det-restaurant {
+        padding-top: 48px;
+        padding-bottom: 47px;
+        max-height: 620px;
+
+        background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.65),rgba(0, 0, 0, 0.65)),
+        url(../images/homepage/section2/section2_bg-desk.jpg);
+        background-size: 1280px 620px;
+    }
+
+    @media screen and (min-device-pixel-ratio: 2) and (min-width: 1280px),
+    screen and (min-resolution: 192dpi) and (min-width: 1280px),
+    screen and (min-resolution: 2dppx) and (min-width: 1280px) {
+        .det-restaurant {
+            background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.65),rgba(0, 0, 0, 0.65)),
+            url(../images/homepage/section2/section2_bg-desk@2x.jpg);
+            background-size: 1280px 620px;
+        } 
+    }
+}
+
+////================= CONTENT BLOCK
+
+@media screen and (max-width: 1023px) {
+    .restaurant-slider-item:nth-child(-n + 2) {
+        display: none;
+    }
+}
+
+.restaurant-content {
+    width: 259px;
+    margin-left: auto;
+
+    @media screen and (min-width: 1024px) {
+        width: 610px;
+        margin-left: 231px;
+    }
+
+    @media screen and (min-width: 1280px) {
+        margin-left: 338px;
+    }
+}
+
+.rest-logo {
     margin-bottom: 12px;
+
     font-family: 'Film P3';
     font-weight: 700;
     font-size: 40px;
@@ -23,103 +106,129 @@
     letter-spacing: 0.3em;
     
     color: #FFFFFF;
+
+    @media screen and (min-width: 1024px) {
+        margin-bottom: 16px;
+        font-size: 64px;
+        line-height: calc(69 / 64);
+    }
+
 }
 
 .rest-content-title {
     margin-bottom: 20px;
+
     font-weight: 700;
     font-size: 20px;
     line-height: calc(24 / 20);
     letter-spacing: 0.02em;
     
     color: #FFFFFF;
+
+    @media screen and (min-width: 1024px) {
+        margin-bottom: 8px;
+        font-size: 24px;
+        line-height: calc(29 / 24);
+    }
+
 }
 
 .rest-content-text {
     margin-bottom: 48px;
+
     font-weight: 600;
     font-size: 12px;
     line-height: calc(15 / 12);
     letter-spacing: 0.02em;
     
     color: #BABABA;
+
+    @media screen and (min-width: 1024px) {
+        margin-bottom: 40px;
+        font-size: 16px;
+        line-height: calc(20 / 16);
+    }
 }
 
-.restaurant-content {
-    width: 259px;
-    margin-left: auto;
-}
-
-.arrows-restaurant-items {
-    display: flex;
-}
-
-.left-arrow,
-.right-arrow {
-    fill: #FFFFFF;
-    margin-bottom: 32px;
-    margin-left: 40px;
-}
-
-.restaurant-slider-item {
-    margin-bottom: 16px;
-    margin-left: 40px;
-    
-}
-
-.btn-reserve-tabble {
-    min-width: 236px;
-    height: 48px;
-    letter-spacing: .02em;
-    color: #f3c653;
-    background-color: rgba(0,0,0,.4);
-    border: 2px solid #fff;
-    border-radius: 25px;
-    font-size: 16px;
-    cursor: pointer;
-    font-family: inherit;
-    font-weight: 700;
-    line-height: 1.25;
-    transition-property: background-color;
-}
-
-.btn-view-menu {
-    max-width: 236px;
-    height: 48px;
-    letter-spacing: .02em;
-    color: #f3c653;
-    background-color: #000;
-    border: 2px solid #fffdee;
-    border-radius: 25px;
-    padding: 14px 29px 14px 30px;
-    cursor: pointer;
-    font-family: inherit;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 1;
-    transition-property: background-color,border-color;
-    display: block;
-}
-
-.restaurant-btn-wrap {
-    display: flex;
-    flex-wrap: wrap;
-    row-gap: 16px;
-    justify-content: center;
+@media screen and (max-width: 1023px) {
+    .restaurant-wrap {
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
 
 @media screen and (min-width: 1024px) {
-    .det-restaurant {
-        background-color: rgba(0, 0, 0, 0.65);
-        padding-top: 24px;
-        padding-bottom: 40px;
-    
-        max-height: 1024px;
+    .restaurant-wrap {
+    display: flex;
+    flex-direction: row-reverse;
+    padding-bottom: 96px;
+}
+}
 
-        background-image: linear-gradient(rgba(0, 0, 0, 0.65),rgba(0, 0, 0, 0.65)),
-        url(../images/homepage/section2/section2_bg-mob.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
+@media screen and (max-width: 1023px) {
+    .restaurant-slider-item {
+        margin-left: 40px;
+        margin-bottom: 80px;
     }
+}
+
+@media screen and (min-width: 1024px) {
+    .restaurant-slider-item:not(:first-child) {
+    margin-right: 30px;
+}
+}
+
+@media screen and (min-width: 1280px) {
+    .restaurant-slider-item:not(:first-child) {
+    margin-right: 70px;
+}
+}
+
+
+.det-rest-btn {
+    display: inline-block;
+    text-align: center;
+    padding: 14 24;
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: calc(20 / 16);
+    letter-spacing: 0.02em;
+
+    background: rgba(0, 0, 0, 0.4);
+    color: #F3C653;
+
+    border: 2px solid #FFFFFF;
+    border-radius: 25px;
+    cursor: pointer;
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+    border-radius 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.det-rest-btn:hover, 
+.det-rest-btn:focus {
+    background-color: #FFFFFF;
+    border: 2px solid #F3C653;
+    border-radius: 25px;
+}
+
+.restaurant-btns {
+    flex-direction: column;
+    display: flex;
+    margin-right: auto;
+
+    @media screen and (max-width: 1023px) {
+        margin-left: auto;
+    }
+
+    @media screen and (min-width: 1024px) {
+        justify-content: flex-end;
+    }
+
+}
+
+.reserve-tabble {
+    margin-bottom: 16px;
 }
