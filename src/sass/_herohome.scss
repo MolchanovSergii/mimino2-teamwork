@@ -274,7 +274,6 @@
 
 @media screen and (max-width: 1023px) {
   .hero-map {
-    display: none;
     position: absolute;
     top: 64px;
     right: 15px;
@@ -285,6 +284,7 @@
     height: 47px;
     border: var(--brdr-btn-yel);
     border-radius: 2px;
+    display: none;
   }
 }
 
