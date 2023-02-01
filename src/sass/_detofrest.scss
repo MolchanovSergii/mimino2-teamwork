@@ -10,17 +10,18 @@
     background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.65),rgba(0, 0, 0, 0.65)),
     url(../images/homepage/section2/section2_bg-mob.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 414px 735px;
     background-position: center;
     
 }
 
-@media screen and (min-device-pixel-ratio: 2) and (max-width: 1023px), 
-screen and (min-resolution: 192dpi) and (max-width: 1023px), 
-screen and (min-resolution: 2dppx) and (max-width: 1023px) {
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 320px), 
+screen and (min-resolution: 192dpi) and (min-width: 320px), 
+screen and (min-resolution: 2dppx) and (min-width: 320px) {
     .det-restaurant {
         background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.65),rgba(0, 0, 0, 0.65)),
         url(../images/homepage/section2/section2_bg-mob@2x.jpg);
+        background-size: 414px 735px;
     }
 }
 
@@ -34,6 +35,8 @@ screen and (min-resolution: 2dppx) and (max-width: 1023px) {
 
         background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.65),rgba(0, 0, 0, 0.65)),
         url(../images/homepage/section2/section2_bg-tab.jpg);
+        background-size: 1024px 620px;
+        
     }
     @media screen and (min-device-pixel-ratio: 2) and (min-width: 1024px),
     screen and (min-resolution: 192dpi) and (min-width: 1024px),
@@ -41,6 +44,7 @@ screen and (min-resolution: 2dppx) and (max-width: 1023px) {
         .det-restaurant {
             background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.65),rgba(0, 0, 0, 0.65)),
             url(../images/homepage/section2/section_bg-tab@2x.jpg);
+            background-size: 1024px 620px;
         }
      }
 }
@@ -55,7 +59,7 @@ screen and (min-resolution: 2dppx) and (max-width: 1023px) {
 
         background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.65),rgba(0, 0, 0, 0.65)),
         url(../images/homepage/section2/section2_bg-desk.jpg);
-        background-size: 1280px;
+        background-size: 1280px 620px;
     }
 
     @media screen and (min-device-pixel-ratio: 2) and (min-width: 1280px),
@@ -64,6 +68,7 @@ screen and (min-resolution: 2dppx) and (max-width: 1023px) {
         .det-restaurant {
             background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.65),rgba(0, 0, 0, 0.65)),
             url(../images/homepage/section2/section2_bg-desk@2x.jpg);
+            background-size: 1280px 620px;
         } 
     }
 }
