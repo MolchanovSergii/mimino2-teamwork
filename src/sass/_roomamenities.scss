@@ -155,7 +155,7 @@
     z-index: 50;
     width: 100%;
     height: 100%;
-    background-color: #FFFDEE;
+    background-color: rgba(0, 0, 0, 0.65);
     
     transition: opacity var(--transition-func),
                transform var(--transition-func),
@@ -287,7 +287,7 @@ transform: scale(0.3);
     
         appearance: none; 
         overflow: hidden;
-        background: url('../images/svg/sprite.svg#icon-wedge') no-repeat right;
+        background: url('../images/svg/wedge.svg') no-repeat right;
         background-position-x: calc(100% - 17px); 
       }
 
@@ -297,9 +297,10 @@ transform: scale(0.3);
       .kalendar{
         appearance: none; 
         overflow: hidden;
-        background: url('../images/svg/sprite.svg#icon-wedge') no-repeat right;
-        background-position-x: calc(100% - 17px)
+        background: url('../images/svg/wedge.svg') no-repeat right;
+        background-position-x: calc(100% - 17px);
       }
+
       @media screen and (min-width: 1024px){
         .modal-amn{
             width: 712px;
