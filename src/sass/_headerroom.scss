@@ -175,7 +175,7 @@
 }
 
 
-.adress-info {
+.header-adress-info {
       width: 210px;
       margin-left: 189px;
       padding: left 6px;
@@ -190,24 +190,24 @@
 }
 
 @media screen and (min-width: 1024px) {
-    .adress-info {
+    .header-adress-info {
         display: none;
     } 
 }
 
-.adress-svg {
+.header-adress-svg {
     margin-right: 8px;
     fill: #f3c653;
 }
 
 @media screen and (min-width: 1024px) {
-    .adress-svg {
+    .header-adress-svg {
         display: none;
     } 
 }
 
 
-.adress-link {
+.header-adress-link {
     font-family: var(--font-primary);
     font-weight: 400;
     font-size: 12px;
@@ -217,7 +217,7 @@
 }
 
 @media screen and (min-width: 1024px) {
-    .adress-link {
+    .header-adress-link {
         display: none;
     } 
 }
