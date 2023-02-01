@@ -19,7 +19,9 @@
     <div class="hero-btn-container">
       <ul class="hero-btn-list list">
         <li class="hero-btn-item">
-          <button class="herohome-btn" type="button">Забронювати столик</button>
+          <button class="herohome-btn" type="button" data-modal-open>
+            Забронювати столик
+          </button>
         </li>
         <li class="hero-btn-item">
           <button class="herohome-btn" type="button">Забронювати номер</button>
@@ -51,3 +53,58 @@
     </ul>
   </div>
 </section>
+
+<!----------- MODAL ----------->
+
+<div class="backdrop is-hidden" data-modal>
+  <div class="modal">
+    <button class="modal-btn" data-modal-close>
+      <svg class="modal-icon" width="8" height="8">
+        <use href="../src/images/svg/sprite.svg#icon-close"></use>
+      </svg>
+    </button>
+    <form class="table-order-form" name="order_form">
+      <strong class="order-form-appeal">ЗАБРОНЮВАТИ СТОЛИК</strong>
+      <div class="table-form-group" role="group">
+        <label class="tableorder-form-field">
+          <span class="order-form-label">На кого забронювати столик?</span>
+          <input
+            class="tableorder-form-input"
+            type="text"
+            name="user_name"
+            required
+            minlength="4"
+            placeholder="Ваше ім’я"
+          />
+        </label>
+
+        <label class="tableorder-form-field">
+          <span class="order-form-label">Номер телефону</span>
+          <input
+            class="tableorder-form-input"
+            type="tel"
+            name="user_phone"
+            required
+            minlength="6"
+            placeholder="&nbsp;"
+          />
+        </label>
+
+        <label class="tableorder-form-field" for="amount-person">
+          <span class="order-form-label">Столик на яку кількість осіб?</span>
+          <select id="amount-person" name="amount">
+            <option value="2" selected>2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+          </select>
+        </label>
+        <label class="tableorder-form-field">
+          <span class="order-form-label">На яку дату бронювати?</span>
+          <input type="date" min="2023-01-01" max="2024-01-01" />
+        </label>
+      </div>
+    </form>
+  </div>
+</div>
+<script src="../src/js/modal.js"></script>
