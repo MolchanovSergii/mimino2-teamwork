@@ -369,7 +369,7 @@
     0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
-.modal-btn {
+.modal-table-btn {
   position: absolute;
   top: 16px;
   right: 16px;
@@ -378,6 +378,11 @@
   justify-content: center;
   border: none;
   background-color: inherit;
+  transition: fill var(--transition);
+}
+
+.modal-table-btn:hover, .modal-table-btn:focus {
+  fill: var(--btn-act-yellow);
 }
 
 .order-form-appeal {
