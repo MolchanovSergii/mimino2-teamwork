@@ -103,7 +103,11 @@
       </div>
 
       <div class="restaurant-btns">
-        <button class="det-rest-btn reserve-tabble" type="button">
+        <button
+          class="det-rest-btn reserve-tabble"
+          type="button"
+          data-modal-open-table1
+        >
           Забронювати&nbsp;столик
         </button>
         <a class="det-rest-btn link" href="./rest.html#rest-menu"
@@ -126,3 +130,71 @@
     </div>
   </div>
 </section>
+
+<!-----------------------------------Modal-table ----------------------------------->
+<div class="backdrop-table is-hidden" data-modal-table1>
+  <div class="modal-table">
+    <button class="modal-table-btn" data-modal-close-table1>
+      <svg class="modal-icon" width="24" height="24">
+        <use href="../src/images/svg/sprite.svg#icon-close"></use>
+      </svg>
+    </button>
+    <form class="table-order-form" name="order_form">
+      <strong class="order-form-appeal">ЗАБРОНЮВАТИ СТОЛИК</strong>
+      <div class="table-form-group" role="group">
+        <label class="tableorder-form-field">
+          <input
+            class="tableorder-form-input"
+            type="text"
+            name="user_name"
+            required
+            minlength="4"
+            pattern="^[a-zA-Zа-яА-ЯіІїЇ]+$"
+            placeholder="Ваше ім’я"
+          />
+          <span class="order-form-label">На кого забронювати столик?</span>
+        </label>
+
+        <label class="tableorder-form-field" for="amount-person">
+          <select class="tableorder-form-input" name="amount" required>
+            <option class="amount-order" value="2" selected>2</option>
+            <option class="amount-order" value="3">3</option>
+            <option class="amount-order" value="4">4</option>
+            <option class="amount-order" value="5">5</option>
+          </select>
+          <span class="order-form-label">Столик на яку кількість осіб?</span>
+        </label>
+
+        <label class="tableorder-form-field">
+          <input
+            class="tableorder-form-input"
+            type="tel"
+            name="user_phone"
+            required
+            minlength="6"
+            pattern="[+38] [([0-9]{3})] [0-9]{3}-[0-9]{2}-[0-9]{2}"
+            placeholder="+38 (___) ___-__-__"
+          />
+          <span class="order-form-label">Номер телефону</span>
+        </label>
+
+        <label class="tableorder-form-field">
+          <input
+            class="tableorder-form-input"
+            type="date"
+            value="2023-02-01"
+            min="2023-01-01"
+            max="2024-01-01"
+          />
+          <span class="order-form-label">На яку дату бронювати?</span>
+        </label>
+        <div class="form-table-send">
+          <button class="formtable-send-btn" type="submit">
+            оформити бронювання
+          </button>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
+<!-----------------------------------Modal-table ----------------------------------->

@@ -1,8 +1,8 @@
 (() => {
   const refs = {
-    openModalBtn: document.querySelector('[data-modal-open-table]'),
-    closeModalBtn: document.querySelector('[data-modal-close-table]'),
-    modal: document.querySelector('[data-modal-table]'),
+    openModalBtn: document.querySelector('[data-modal-open-1]'),
+    closeModalBtn: document.querySelector('[data-modal-close-1]'),
+    modal: document.querySelector('[data-modal-1]'),
   };
   refs.openModalBtn.addEventListener('click', toggleModal);
   refs.closeModalBtn.addEventListener('click', toggleModal);
@@ -13,9 +13,9 @@
 
 (() => {
   const refs = {
-    openModalBtn: document.querySelector('[data-modal-open-table1]'),
-    closeModalBtn: document.querySelector('[data-modal-close-table1]'),
-    modal: document.querySelector('[data-modal-table1]'),
+    openModalBtn: document.querySelector('[data-modal-open-2]'),
+    closeModalBtn: document.querySelector('[data-modal-close-2]'),
+    modal: document.querySelector('[data-modal-2]'),
   };
   refs.openModalBtn.addEventListener('click', toggleModal);
   refs.closeModalBtn.addEventListener('click', toggleModal);
