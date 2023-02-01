@@ -157,9 +157,9 @@
     height: 100%;
     background-color: rgba(0, 0, 0, 0.65);
     
-    transition: opacity var(--transition-func),
-               transform var(--transition-func),
-               visibility var(--transition-func);
+    transition: opacity var(--transition),
+               transform var(--transition),
+               visibility var(--transition);
 }  
   
   .backdrop.is-hidden{
