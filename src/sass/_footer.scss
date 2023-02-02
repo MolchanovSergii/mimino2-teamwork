@@ -1,3 +1,5 @@
+
+
 @media screen and (max-width: 1023px) {
   .footer {
     background-color: #0e0c07;
@@ -6,6 +8,7 @@
     height: 240px;
   }
 }
+
 @media screen and (min-width: 1024px) {
   .footer {
     padding-top: 80px;
@@ -133,18 +136,11 @@
 .footer-logo:hover,
 .footer-logo:focus,
 .footer-menu-title:hover,
-.footer-menu-title:focus,
-.footer-social-media:hover,
-.footer-social-media:focus {
+.footer-menu-title:focus {
   color: white;
-}
-
-.footer-icon:hover,
-.footer-icon:focus {
-  fill: white;
 }
 
 .footer-sm-border:hover,
 .footer-sm-border:focus {
-  border-color: white;
+  background-color: white;
 }
