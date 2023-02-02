@@ -26,6 +26,7 @@
 @media screen and (min-width: 1024px) {
     .header-room-navigation {
         flex-wrap: nowrap;
+        align-items: flex-start;
         padding-top: 24px;
         height: 116px;
         width: 1024px;
@@ -47,7 +48,7 @@
     display: flex;
     
     align-items: center;
-    width: 218px;
+    
 }
 
 @media screen and (min-width: 1024px) {
@@ -66,6 +67,11 @@
 
 .header-logo {
     margin-right: 41px;
+}
+
+.logo:hover,
+.logo:focus {
+    color: var(--btn-act-yellow);
 }
 
 @media screen and (min-width: 1024px) {
@@ -111,12 +117,12 @@
     }
 }
 
-.header-contact-link {
+.headerroom-contact-link {
     margin-right: 6px;
   }
   
   @media screen and (min-width: 1024px) {
-    .header-contact-link {
+    .headerroom-contact-link {
       margin: 0;
     }
   }
@@ -129,6 +135,12 @@
     color: var(--btn-act-yellow);
 
 }
+
+.header-contact:hover,
+.header-contact:focus{
+  color: var(--btn-act-white);
+}
+
 
 @media screen and (min-width: 1024px) {
     .header-contact-border {
@@ -145,16 +157,17 @@
     }
 }
 
-.header-list-icon {
+.headerroom-phone-icon {
     fill: var(--btn-act-yellow);
-    margin-right: 20px;
-      
 }
 
-@media screen and (min-width: 1024px) {
-    .header-list-icon {
-        margin-right: 10px; 
+.headerroom-phone-icon:hover,
+.headerroom-phone-icon:focus {
+      fill: var(--btn-act-white);
     }
+
+.icon-one {
+    margin-right: 6px;
 }
 
 .icon-two {
@@ -180,6 +193,13 @@
         line-height: calc(17.07 / 14);
         letter-spacing: 0.02em;
         color: #ffffff;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .header-phone:hover,
+    .header-phone:focus {
+        color: var(--btn-act-yellow);
     }
 }
 
