@@ -88,8 +88,8 @@
    border-color: var(--brdr-btn-yel);
    border-radius: 25px;
    margin-bottom: 20px;
-   transition: background-color var(--transition-func),
-               color var(--transition-func);
+   transition: background-color var(--transition),
+               color var(--transition);
 }
 .open-booking:hover,
 .open-booking:focus{
@@ -108,10 +108,15 @@
    letter-spacing: 2%;
    font-weight: 500;
    color: #C79002;
+   transition: var(--transition);
+}
+.amn-link:hover,
+.amn-link:focus{
+    color: var(--btn-bg-dark);
 }
 
 .arrow{
-    fill: #C79002;
+   fill: currentColor;
     width: 23px;
     height: 13px;
     margin-left: 12px;
