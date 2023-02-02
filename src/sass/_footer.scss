@@ -1,135 +1,131 @@
 @media screen and (max-width: 1023px) {
-    .footer {
-    background-color: #0E0C07;
+  .footer {
+    background-color: #0e0c07;
     padding-top: 40px;
     padding-bottom: 40px;
     height: 240px;
-}
+  }
 }
 @media screen and (min-width: 1024px) {
-    .footer {
-    background-color: #0E0C07;
+  .footer {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #0e0c07;
     height: 304px;
-    }
+  }
 }
 
 .footer-logo {
-    font-family: var(--font-logo);
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 1.01;
-    letter-spacing: 0.3em;
-    color: #F3C653;
-    margin-left: 40px;
+  font-family: var(--font-logo);
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.01;
+  letter-spacing: 0.3em;
+  color: #f3c653;
+  margin-left: 40px;
 }
 
 @media screen and (min-width: 1024px) {
-    .footer-logo {
-        margin-left: 104px;
-        margin-right: 163px;
-        font-weight: 700;
-        font-size: 64px;
-        line-height: 69px;
-        letter-spacing: 0.3em;
-    }
+  .footer-logo {
+    margin-left: 104px;
+    margin-right: 163px;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 69px;
+    letter-spacing: 0.3em;
+  }
 }
 
 .footer-btn-social {
-    display: block;
-    margin-left: 149px;
+  display: block;
+  margin-left: 149px;
 }
 
 @media screen and (max-width: 1023px) {
-    .footer-btn-social {
-        display: none;
-    }
+  .footer-btn-social {
+    display: none;
+  }
 }
 
 .footer-wrapper {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .footer-menu {
-    font-family: 'Montserrat';
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #F3C653;
-    margin-bottom: 33px;
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #f3c653;
+  margin-bottom: 33px;
 }
 
 .footer-menu-list:not(:last-child) {
-    margin-bottom: 16px;
+  margin-bottom: 16px;
 }
 
 .footer-social-list {
-    display: flex;
-    gap: 23px;
-}
-
-@media screen and (min-width:1024px) {
-    .footer-social-list {
-        display: none;
-    }
-}
-
-.footer-icon {
-    fill: rgba(243, 198, 83, 0.7);
-}
-
-.footer-link {
-    font-family: 'Montserrat';
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #F3C653;
-}
-
-@media screen and (min-width:1024px) {
-    .footer-link {
-    display: flex;
-    align-items: center;
-    }
-}
-
-
-@media screen and (min-width:1024px) {
-.footer-menu-wrapper {
-    margin-top: 80px;
-    margin-right: 137px;
-    display: flex;
-    justify-content: space-between;
-}
+  display: flex;
+  gap: 23px;
 }
 
 @media screen and (min-width: 1024px) {
-.footer-sm-border {
+  .footer-social-list {
+    display: none;
+  }
+}
+
+.footer-icon {
+  fill: rgba(243, 198, 83, 0.7);
+}
+
+.footer-link {
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #f3c653;
+}
+
+@media screen and (min-width: 1024px) {
+  .footer-link {
+    display: flex;
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .footer-menu-wrapper {
+    margin-right: 137px;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .footer-sm-border {
     justify-content: space-around;
     margin-bottom: 12px;
     height: 40px;
     width: 144px;
     padding: 10px 12px;
-    border: 0.5px solid #F3C653;
+    border: 0.5px solid #f3c653;
     border-radius: 2px;
     align-items: center;
     display: flex;
-}
-
-.footer-sm-border:last-child {
-    margin-bottom: 90px;
-}
+  }
 }
 
 .footer-social-media {
-    margin-right: 11px;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 20px;
-    letter-spacing: 0.02em;
+  margin-right: 11px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.02em;
 }
