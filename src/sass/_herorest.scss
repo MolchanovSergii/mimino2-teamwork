@@ -1,7 +1,6 @@
 .hero-rest {
-  max-width: 414px;
-  height: 740px;
   padding-top: 181px;
+  padding-bottom: 20px;
   margin-left: auto;
   margin-right: auto;
   position: relative;
@@ -82,16 +81,14 @@
 
 @media screen and (min-width: 1024px) {
   .hero-rest {
-    max-width: 1024px;
-    height: 720px;
     padding-top: 188px;
+    padding-bottom: 15px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .hero-rest {
-    max-width: 1280px;
-    height: 720px;
     padding-top: 164px;
+    padding-bottom: 64px;
   }
 }

@@ -8,9 +8,6 @@
   padding-top: 24px;
   padding-bottom: 40px;
 
-  max-width: 414px;
-  margin-left: auto;
-  margin-right: auto;
   background-image: linear-gradient(
       to top left,
       rgba(0, 0, 0, 0.76),
@@ -41,7 +38,6 @@
   .det-hotel {
     padding-top: 48px;
     padding-bottom: 40px;
-    max-width: 1024px;
 
     background-image: linear-gradient(
         to top left,
@@ -68,8 +64,6 @@
 
 @media screen and (min-width: 1280px) {
   .det-hotel {
-    max-width: 1280px;
-
     background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
       url(../images/homepage/section4/section4_bg-desk.jpg);
   }
@@ -113,6 +107,8 @@
 
 .hotel-logo {
   margin-bottom: 12px;
+  width: 127px;
+  margin-left: auto;
 
   font-family: 'Film P3';
   font-weight: 700;
@@ -124,6 +120,7 @@
 
   @media screen and (min-width: 1024px) {
     margin-bottom: 16px;
+    width: 202px;
 
     font-size: 64px;
     line-height: calc(69 / 64);
@@ -151,6 +148,7 @@
 .hotel-content-text {
   margin-bottom: 48px;
 
+  text-align: left;
   font-weight: 600;
   font-size: 12px;
   line-height: calc(15 / 12);
@@ -191,6 +189,12 @@
 }
 
 @media screen and (min-width: 1024px) {
+  .hotel-slider-item:not(:first-child) {
+    margin-left: 34px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
   .hotel-slider-item:not(:first-child) {
     margin-left: 86px;
   }
@@ -243,6 +247,7 @@
 .reserve-room {
   margin-bottom: 16px;
 }
+
 /* modal */
 
 .backdrop {
@@ -460,21 +465,21 @@ input::-webkit-calendar-picker-indicator {
   display: flex;
   column-gap: 32px;
 
-  padding-left: 276px;
+  padding-left: 261px;
 
   transform: translateY(-184px);
 }
 
 @media screen and (min-width: 1024px) {
   .buttons-section4 {
-    padding-left: 614px;
+    padding-left: 567px;
     transform: translate(0);
   }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1280px) {
   .buttons-section4 {
-    padding-left: 828px;
+    padding-left: 776px;
   }
 }
 

@@ -104,34 +104,34 @@
         <button
           class="det-hotel-btn reserve-room"
           type="button"
-          data-modal-open-1
+          data-modal-open-2
         >
           Забронювати номер
         </button>
-        <a class="det-hotel-btn link" href="#">Переглянути ціни</a>
+        <a class="det-hotel-btn link" href="../src/hotel.html"
+          >Переглянути ціни</a
+        >
       </div>
     </div>
-  </div>
-
-  <div class="buttons-section4">
-    <div class="button-prev">
-      <svg class="button-prev-icon" width="32px" height="32px">
-        <use href="../src/images/svg/sprite.svg#icon-left"></use>
-      </svg>
-    </div>
-    <div class="button-next">
-      <svg class="button-next-icon" width="32px" height="32px">
-        <use href="../src/images/svg/sprite.svg#icon-right"></use>
-      </svg>
+    <div class="buttons-section4">
+      <div class="button-prev">
+        <svg class="button-prev-icon" width="32px" height="32px">
+          <use href="../src/images/svg/sprite.svg#icon-left"></use>
+        </svg>
+      </div>
+      <div class="button-next">
+        <svg class="button-next-icon" width="32px" height="32px">
+          <use href="../src/images/svg/sprite.svg#icon-right"></use>
+        </svg>
+      </div>
     </div>
   </div>
 </section>
 
-<!-- Modal -->
-
-<div class="backdrop is-hidden" data-modal-1>
+<!-----------------------------------Modal-room ----------------------------------->
+<div class="backdrop is-hidden" data-modal-2>
   <div class="modal-amn">
-    <button type="button" class="close-window-amn" data-modal-close-1>
+    <button type="button" class="close-window-amn" data-modal-close-2>
       <svg class="close-modal-amn" width="18px" height="18px">
         <use href="./images/svg/sprite.svg#icon-close"></use>
       </svg>
@@ -168,9 +168,9 @@
           </label>
         </div>
 
-        <label for="room" class="mf-label">
+        <label for="room1" class="mf-label">
           <span class="use-room">
-            <select name="room" id="room" class="mf-input mf-select kind-room">
+            <select name="room" id="room1" class="mf-input mf-select kind-room">
               <option class="selection" value="3s">Трьохмісний номер</option>
               <option class="selection" value="2s">Двомісний номер</option>
               <option class="selection" value="2l">Двомісний люкс</option>
@@ -181,10 +181,10 @@
         </label>
 
         <div class="use-info">
-          <label for="arrival" class="mf-label">
+          <label for="arrival1" class="mf-label">
             <input
               type="date"
-              id="arrival"
+              id="arrival1"
               name="trip-start"
               class="mf-input mf-select kalendar"
               value="2023-02-01"
@@ -193,10 +193,10 @@
             />
             <span class="mf-desk">Дата заїзду</span>
           </label>
-          <label for="departure" class="mf-label">
+          <label for="departure1" class="mf-label">
             <input
               type="date"
-              id="departure"
+              id="departure1"
               name="trip-start"
               class="mf-input mf-select kalendar"
               value="2023-02-01"
@@ -211,3 +211,4 @@
     </form>
   </div>
 </div>
+<!-----------------------------------Modal-room ----------------------------------->
