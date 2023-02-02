@@ -1,3 +1,5 @@
+
+
 @media screen and (max-width: 1023px) {
   .footer {
     background-color: #0e0c07;
@@ -6,6 +8,7 @@
     height: 240px;
   }
 }
+
 @media screen and (min-width: 1024px) {
   .footer {
     padding-top: 80px;
@@ -128,4 +131,16 @@
   font-size: 16px;
   line-height: 20px;
   letter-spacing: 0.02em;
+}
+
+.footer-logo:hover,
+.footer-logo:focus,
+.footer-menu-title:hover,
+.footer-menu-title:focus {
+  color: white;
+}
+
+.footer-sm-border:hover,
+.footer-sm-border:focus {
+  background-color: white;
 }
