@@ -1,9 +1,9 @@
 /* -------------HERO------------- */
 .hero {
   padding-top: 181px;
+  padding-bottom: 20px;
   margin-left: auto;
   margin-right: auto;
-  height: 740px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -81,15 +81,14 @@
 @media screen and (min-width: 1024px) {
   .hero {
     // max-width: 1024px;
-    height: 720px;
     padding-top: 188px;
+    padding-bottom: 65px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .hero {
     // max-width: 1280px;
-    height: 720px;
     padding-top: 164px;
   }
 }
@@ -165,16 +164,14 @@
   }
 }
 
-
-
 .hero-btn-container {
   margin-top: 113px;
 }
 
 @media screen and (max-width: 348px) {
   .hero-btn-container {
-      margin-top: 75px;
-    }
+    margin-top: 75px;
+  }
 }
 
 @media screen and (max-width: 323px) {
@@ -251,7 +248,8 @@
   }
 }
 
-.herohome-btn:hover, .herohome-btn:focus {
+.herohome-btn:hover,
+.herohome-btn:focus {
   border-color: var(--btn-act-yellow);
   background-color: var(--btn-act-white);
 }
@@ -283,7 +281,8 @@
   transition: fill var(--transition);
 }
 
-.hero-icon-link:hover, .hero-icon-link:focus {
+.hero-icon-link:hover,
+.hero-icon-link:focus {
   fill: #ffffff;
 }
 
@@ -346,7 +345,8 @@
   }
 }
 
-.adress-link:hover, .adress-link:focus {
+.adress-link:hover,
+.adress-link:focus {
   color: var(--btn-act-yellow);
 }
 
@@ -381,7 +381,7 @@
   background-color: #fffdee;
   padding: 60px 19px 60px 11px;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
-      0px 2px 1px rgba(0, 0, 0, 0.2);
+    0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 @media screen and (min-width: 1024px) {
@@ -390,7 +390,7 @@
     height: 522px;
     padding: 60px;
     border-radius: 2px;
-    }  
+  }
 }
 
 .modal-table-btn {
@@ -405,7 +405,8 @@
   transition: fill var(--transition);
 }
 
-.modal-table-btn:hover, .modal-table-btn:focus {
+.modal-table-btn:hover,
+.modal-table-btn:focus {
   fill: var(--btn-act-yellow);
 }
 
@@ -421,10 +422,10 @@
 }
 
 @media screen and (min-width: 1024px) {
-.order-form-appeal {
-  font-size: 40px;
-  line-height: 1.15;
-}
+  .order-form-appeal {
+    font-size: 40px;
+    line-height: 1.15;
+  }
 }
 
 .table-form-group {
@@ -433,11 +434,11 @@
 }
 
 @media screen and (min-width: 1024px) {
-.table-form-group {
-  margin-top: 40px;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
+  .table-form-group {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
   }
 }
 
@@ -446,13 +447,13 @@
 }
 
 .tableorder-form-input {
-    width: 384px;
-    height: 54px;
-    padding: 17px 12px;
-    border: 1px solid #c79002;
-    border-radius: 2px;
-    margin-bottom: 20px;
-    background-color: #fffdee;
+  width: 384px;
+  height: 54px;
+  padding: 17px 12px;
+  border: 1px solid #c79002;
+  border-radius: 2px;
+  margin-bottom: 20px;
+  background-color: #fffdee;
 }
 
 @media screen and (min-width: 1024px) {
@@ -474,18 +475,18 @@
 }
 
 @media screen and (min-width: 1024px) {
-.tableorder-form-input::placeholder {
-  font-size: 24px;
-  line-height: 1.16;
-}
+  .tableorder-form-input::placeholder {
+    font-size: 24px;
+    line-height: 1.16;
+  }
 }
 
 @media screen and (min-width: 1024px) {
   .tableorder-form-field:nth-child(2n + 1) {
-     margin-right: 16px;
+    margin-right: 16px;
   }
   .tableorder-form-field:nth-child(n + 3) {
-     margin-top: 28px;
+    margin-top: 28px;
   }
 }
 
@@ -494,15 +495,15 @@
   font-size: 14px;
   line-height: 1.21;
   letter-spacing: 0.02em;
-  color: #c79002;  
+  color: #c79002;
   margin-bottom: 20px;
 }
 
 @media screen and (min-width: 1024px) {
   .order-form-label {
-  font-size: 16px;
-  line-height: 1.25;
-  margin-bottom: 0;
+    font-size: 16px;
+    line-height: 1.25;
+    margin-bottom: 0;
   }
 }
 
@@ -519,18 +520,19 @@
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  color: #FFFFFF;
+  color: #ffffff;
   background-color: #000000;
 }
 
 @media screen and (min-width: 1024px) {
-.formtable-send-btn {
-  width: 592px;
-  font-size: 24px;
-  line-height: 29px;
-}
+  .formtable-send-btn {
+    width: 592px;
+    font-size: 24px;
+    line-height: 29px;
+  }
 }
 
-.formtable-send-btn:hover, .formtable-send-btn:focus {
+.formtable-send-btn:hover,
+.formtable-send-btn:focus {
   background-color: #323232;
 }
