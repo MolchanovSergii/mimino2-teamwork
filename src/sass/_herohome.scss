@@ -3,8 +3,7 @@
   padding-top: 181px;
   margin-left: auto;
   margin-right: auto;
-  position: relative;
-  background-color: #fffdee;
+  height: 740px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -81,7 +80,7 @@
 
 @media screen and (min-width: 1024px) {
   .hero {
-    max-width: 1024px;
+    // max-width: 1024px;
     height: 720px;
     padding-top: 188px;
   }
@@ -89,10 +88,14 @@
 
 @media screen and (min-width: 1280px) {
   .hero {
-    max-width: 1280px;
+    // max-width: 1280px;
     height: 720px;
     padding-top: 164px;
   }
+}
+
+.hero-container {
+  position: relative;
 }
 
 .herohome-title {
@@ -162,8 +165,22 @@
   }
 }
 
+
+
 .hero-btn-container {
   margin-top: 113px;
+}
+
+@media screen and (max-width: 348px) {
+  .hero-btn-container {
+      margin-top: 75px;
+    }
+}
+
+@media screen and (max-width: 323px) {
+  .hero-btn-container {
+    margin-top: 55px;
+  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -220,7 +237,7 @@
   line-height: 1.25;
   letter-spacing: 0.02em;
   color: var(--btn-act-yellow);
-  padding: 13px 23px;
+  padding: 12.5px 22.5px;
 
   border-radius: 25px;
   border: var(--brdr-btn-white);
@@ -247,7 +264,7 @@
 @media screen and (min-width: 1024px) {
   .hero-social-list {
     display: flex;
-    margin-top: 28px;
+    margin-top: 25px;
   }
 }
 
@@ -292,7 +309,7 @@
     width: 285px;
     height: 56px;
     left: 47px;
-    bottom: 64px;
+    bottom: 49px;
     display: flex;
     align-items: center;
     border: var(--brdr-btn-yel);
@@ -303,6 +320,7 @@
 
 @media screen and (min-width: 1280px) {
   .hero-map {
+    bottom: 0;
     left: 85px;
   }
 }
