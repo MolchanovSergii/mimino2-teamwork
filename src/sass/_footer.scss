@@ -129,3 +129,22 @@
   line-height: 20px;
   letter-spacing: 0.02em;
 }
+
+.footer-logo:hover,
+.footer-logo:focus,
+.footer-menu-title:hover,
+.footer-menu-title:focus,
+.footer-social-media:hover,
+.footer-social-media:focus {
+  color: white;
+}
+
+.footer-icon:hover,
+.footer-icon:focus {
+  fill: white;
+}
+
+.footer-sm-border:hover,
+.footer-sm-border:focus {
+  border-color: white;
+}
