@@ -4,9 +4,6 @@
   padding-top: 24px;
   padding-bottom: 40px;
 
-  max-width: 414px;
-  margin-left: auto;
-  margin-right: auto;
   background-image: linear-gradient(
       to top left,
       rgba(0, 0, 0, 0.65),
@@ -28,7 +25,6 @@
         rgba(0, 0, 0, 0.65)
       ),
       url(../images/homepage/section2/section2_bg-mob@2x.jpg);
-    background-size: 414px 735px;
   }
 }
 
@@ -38,7 +34,6 @@
   .det-restaurant {
     padding-top: 48px;
     padding-bottom: 48px;
-    max-width: 1024px;
 
     background-image: linear-gradient(
         to top left,
@@ -46,7 +41,6 @@
         rgba(0, 0, 0, 0.65)
       ),
       url(../images/homepage/section2/section2_bg-tab.jpg);
-    background-size: 1024px 620px;
   }
   @media screen and (min-device-pixel-ratio: 2) and (min-width: 1024px),
     screen and (min-resolution: 192dpi) and (min-width: 1024px),
@@ -58,7 +52,6 @@
           rgba(0, 0, 0, 0.65)
         ),
         url(../images/homepage/section2/section_bg-tab@2x.jpg);
-      background-size: 1024px 620px;
     }
   }
 }
@@ -69,7 +62,6 @@
   .det-restaurant {
     padding-top: 48px;
     padding-bottom: 40px;
-    max-width: 1280px;
 
     background-image: linear-gradient(
         to top left,
@@ -77,7 +69,6 @@
         rgba(0, 0, 0, 0.65)
       ),
       url(../images/homepage/section2/section2_bg-desk.jpg);
-    background-size: 1280px 620px;
   }
 
   @media screen and (min-device-pixel-ratio: 2) and (min-width: 1280px),
@@ -90,7 +81,6 @@
           rgba(0, 0, 0, 0.65)
         ),
         url(../images/homepage/section2/section2_bg-desk@2x.jpg);
-      background-size: 1280px 620px;
     }
   }
 }
