@@ -6,21 +6,6 @@
 }
 
 @media screen and (max-width: 1023px) {
-  .btn-info-top {
-    width: 210px;
-    margin-left: auto;
-    margin-bottom: 372px;
-    padding: left 6px;
-    padding-top: 8px;
-    padding-bottom: 9px;
-    padding-right: 3px;
-
-    display: flex;
-    align-items: center;
-    border: 1px solid rgba(243, 198, 83, 0.7);
-    border-radius: 2px;
-  }
-
   .btn-link-top {
     font-family: var(--font-primary);
     font-weight: 400;
@@ -39,7 +24,7 @@
 .hero-room {
   margin-left: auto;
   margin-right: auto;
-  padding-top: 64px;
+  padding-top: 483px;
   padding-bottom: 14px;
 }
 
@@ -138,10 +123,6 @@
   .hero-title {
     margin-bottom: 24px;
     font-size: 36px;
-  }
-
-  .btn-info-top {
-    display: none;
   }
 
   .btn-info {
@@ -257,7 +238,7 @@
   position: absolute;
   width: 414px;
   height: 740px;
-  top: -64px;
+  top: -483px;
   left: 0px;
   z-index: -1;
 }
@@ -283,7 +264,7 @@
 }
 
 .swiper-button-prev.heroroom {
-  top: 350 !important;
+  top: -133px !important;
   left: 15px !important;
 
   display: flex;
@@ -315,7 +296,7 @@
 }
 
 .swiper-button-next.heroroom {
-  top: 350 !important;
+  top: -133px !important;
   right: 15px !important;
 
   width: 40px !important;
