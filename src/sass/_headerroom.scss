@@ -237,6 +237,10 @@
     fill: var(--btn-act-yellow);
 }
 
+.header-icon:hover,
+.header-icon:focus {
+    fill: var(--btn-act-white);
+}
 
 .header-adress-info {
       width: 210px;
