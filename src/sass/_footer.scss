@@ -141,6 +141,7 @@
     fill: white;
   }
   
+  
 }
 
 @media screen and (min-width: 1024px) {
@@ -148,25 +149,25 @@
       fill: rgba(243, 198, 83, 0.7);
     }
 
-  .footer-logo,
-  .footer-menu {
-    transition: color var(--transition);
-  }
-
-  .footer-logo:hover,
-  .footer-logo:focus,
-  .footer-menu-title:hover,
-  .footer-menu-title:focus {
-    color: white;
-  }
-
-  .footer-sm-border {
-    transition: background-color var(--transition);
-  }
-
   .footer-sm-border:hover,
   .footer-sm-border:focus {
     background-color: white;
   }
 
 }
+
+    .footer-logo,
+    .footer-menu {
+      transition: color var(--transition);
+    }
+  
+    .footer-logo:hover,
+    .footer-logo:focus,
+    .footer-menu-title:hover,
+    .footer-menu-title:focus {
+      color: white;
+    }
+  
+    .footer-sm-border {
+      transition: background-color var(--transition);
+    }
