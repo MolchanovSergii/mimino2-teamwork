@@ -27,6 +27,10 @@ const swiper = new Swiper('.swiper', {
     eventsTarget: '.swiper',
   },
 
+  //Autoplay
+  autoplay: true,
+  autoplaySpeed: 2000,
+
   //Quantity of slides Responsive breakpoints
 
   breakpoints: {
