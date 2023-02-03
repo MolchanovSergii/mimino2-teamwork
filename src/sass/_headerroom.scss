@@ -264,7 +264,12 @@
 
 .header-adress-svg {
     margin-right: 8px;
-    fill: #f3c653;
+    fill: var(--btn-act-yellow);
+}
+
+.header-adress-svg:hover,
+.header-adress-svg:focus {
+    fill: var(--btn-act-white);
 }
 
 @media screen and (min-width: 1024px) {
@@ -281,6 +286,13 @@
     line-height: 1.25;
     letter-spacing: 0.01em;
     color: #e5e5e5;
+}
+
+
+
+.header-adress-link:hover,
+.header-adress-link:focus {
+    color: var(--btn-act-yellow)
 }
 
 @media screen and (min-width: 1024px) {
