@@ -1,3 +1,6 @@
+ORIGINAL IS HERE: https://molchanovsergii.github.io/mimino2-teamwork/
+
+
 # Parcel template
 
 Этот проект был создан при помощи Parcel. Для знакомства и настройки
