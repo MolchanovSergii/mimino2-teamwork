@@ -231,3 +231,42 @@
 .header-icon {
   fill: var(--btn-act-yellow);
 }
+
+.header-container {
+  position: relative;
+}
+
+@media screen and (max-width: 1023px) {
+  .header-map {
+    position: absolute;
+    top: 64px;
+    right: 15px;
+    display: flex;
+    align-items: center;
+    padding: 8px 3px 9px 4px;
+    width: 210px;
+    height: 47px;
+    border: var(--brdr-btn-yel);
+    border-radius: 2px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .header-map {
+    display: none;
+  }
+}
+
+.adress-link {
+  fill: rgba(243, 198, 83, 0.7);
+  transition: fill var(--transition);
+}
+
+.adress-link:hover,
+.adress-link:focus {
+  fill: #ffffff;
+}
+
+.header-icon-map {
+  fill: var(--btn-act-yellow);
+}
